@@ -1,0 +1,36 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+nav {
+    flex: .2;
+    min-height: 20%;
+}
+
+.links-wrapper {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 50%;
+    color: silver;
+    padding: 1em;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+
+@media screen and (min-width: 800px) {
+    nav {
+        flex: .3;
+        min-height: 30%;
+    }
+}
